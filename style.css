@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=RocknRoll%20One:700|Poppins:400');
+
+
+* {
+   margin: 0;
+   border: 0;
+   outline: 0;
+   font-family: 'RocknRoll One';
+   font-size: 3rem;
+}
+
+body{
+    max-height: 100vh;
+}
+
+
+:root {
+   --primary: #AA1919;
+   --black: #000000;
+}
+header{
+   color: #FDFFEB;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   background-color: var(--primary);
+   height: 5rem;
+   align-items: center;
+}
+
+
+section{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   background-color: black;
+   height: calc(100vh - 5rem);
+}
+
+.bloco_1{
+   
+   background-image: url('Rectangle\ 1.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   text-align: center;
+   min-width: 30%;
+}
+
+
+.bloco_2{
+   
+   background-image: url('Rectangle\ 4.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   text-align: center;
+   min-width: 30%;
+}
+
+
+.bloco_3{
+   
+   background-image: url('Rectangle\ 3.png');
+   background-repeat: no-repeat;
+   text-align: center;
+   background-position: center;
+   min-width: 30%;
+}
+
+
